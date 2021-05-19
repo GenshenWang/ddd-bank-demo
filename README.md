@@ -124,7 +124,7 @@ DDD模式下的包组织结构：
 
 领域驱动模型：
 
-<img src="https://wgs-markdown-pic.oss-cn-hangzhou.aliyuncs.com/img/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E7%BC%96%E6%8E%92.png" alt="image-20210519170255106" style="zoom:53%;" />
+<img src="https://wgs-markdown-pic.oss-cn-hangzhou.aliyuncs.com/img/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E7%BC%96%E6%8E%92.png" alt="image-20210519170255106"/>
 
 
 
