@@ -7,7 +7,7 @@ import com.wgs.ddd.domain.service.TransferService;
 import com.wgs.ddd.UserId;
 import com.wgs.ddd.domain.entity.*;
 import com.wgs.ddd.messaging.MessageProducer;
-import com.wgs.ddd.repository.AccountRepository;
+import com.wgs.ddd.repository_2.AccountRepository;
 import com.wgs.ddd.external.ExchangeRateService;
 import com.wgs.ddd.domain.types.AuditMeesage;
 import org.springframework.stereotype.Service;
