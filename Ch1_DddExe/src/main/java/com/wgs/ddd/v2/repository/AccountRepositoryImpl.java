@@ -1,7 +1,7 @@
 package com.wgs.ddd.v2.repository;
 
 import com.wgs.ddd.domain.AccountDO;
-import com.wgs.ddd.repository.AccountMapper;
+import com.wgs.ddd.repository_2.AccountMapper;
 import com.wgs.ddd.v2.domain.AccountDP;
 import com.wgs.ddd.v2.domain.AccountId;
 import com.wgs.ddd.v2.domain.AccountNo;

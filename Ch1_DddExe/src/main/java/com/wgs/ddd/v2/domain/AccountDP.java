@@ -3,6 +3,7 @@ package com.wgs.ddd.v2.domain;
 import com.wgs.ddd.exception.DailyLimitException;
 import com.wgs.ddd.exception.InsufficienttException;
 import com.wgs.ddd.exception.InvalidCurrencytException;
+import com.wgs.ddd.repository_2.Aggregate;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class AccountDP {
+public class AccountDP implements Aggregate<AccountId> {
     private AccountId id;
     private UserId userId;
     private AccountNo accountNo;

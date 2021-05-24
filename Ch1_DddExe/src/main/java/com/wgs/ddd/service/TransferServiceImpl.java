@@ -5,7 +5,7 @@ import com.wgs.ddd.domain.Result;
 import com.wgs.ddd.exception.InvalidAccountException;
 import com.wgs.ddd.external.KafkaSender;
 import com.wgs.ddd.external.Yahooforex;
-import com.wgs.ddd.repository.AccountMapper;
+import com.wgs.ddd.repository_2.AccountMapper;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,4 +1,4 @@
-package com.wgs.ddd.repository;
+package com.wgs.ddd.repository_2;
 
 import com.wgs.ddd.domain.AccountDO;
 
