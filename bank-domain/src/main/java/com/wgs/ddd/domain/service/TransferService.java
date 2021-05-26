@@ -11,7 +11,6 @@ public interface TransferService {
      *
      * @param sourceAccount
      * @param targetAccount
-     * @param sourceAmount
      */
     void transferMoney(AccountDP sourceAccount, AccountDP targetAccount, Money sourceAmount, ExchangeRateDP exchangeRateDP);
 }

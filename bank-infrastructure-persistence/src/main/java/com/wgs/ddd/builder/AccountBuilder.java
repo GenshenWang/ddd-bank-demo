@@ -1,11 +1,7 @@
 package com.wgs.ddd.builder;
 
-import com.wgs.ddd.domain.entity.AccountId;
-import com.wgs.ddd.domain.entity.Currency;
-import com.wgs.ddd.domain.entity.AccountNo;
-import com.wgs.ddd.domain.entity.UserId;
-import com.wgs.ddd.domain.entity.Money;
 
+import com.wgs.ddd.*;
 import com.wgs.ddd.domain.AccountDO;
 import com.wgs.ddd.domain.entity.AccountDP;
 import org.springframework.stereotype.Component;

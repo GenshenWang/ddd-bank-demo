@@ -42,7 +42,7 @@ public class AccountTransferServiceImpl implements AccountTransferService {
         Money targetAmount = exchangeRate.exchangeTo(new Money(amount));
 
         // 转账操作
-        transferService.transferMoney(sourceAccount, targetAccount, targetAmount);
+        transferService.transferMoney(sourceAccount, targetAccount, targetAmount, exchangeRate);
 
         // 保存数据 (为什么不放到 transferService.transferMoney 里？不方便测试的原因？)
         accountRepository.save(sourceAccount);

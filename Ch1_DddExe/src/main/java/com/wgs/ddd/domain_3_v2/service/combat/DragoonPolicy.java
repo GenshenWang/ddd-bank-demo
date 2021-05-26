@@ -10,7 +10,7 @@ public class DragoonPolicy implements DamagePolicy {
     @Override
     public boolean canApply(Player player, Weapon weapon, Monster monster) {
         return player.getPlayerClass() == PlayerClass.DRAGOON
-                && monster.getMonsterClass() == MonsterClass.LEVEL_2;
+                && monster.getMonsterClass() == MonsterClass.EVIL;
     }
 
     @Override
