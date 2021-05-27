@@ -13,7 +13,15 @@ public class Result<T> {
         this.data = data;
     }
 
-    public static Result success() {
-        return new Result(200, true, "success", true);
+    public static Result fail(String msg) {
+        return new Result(400, false, msg, null);
+    }
+
+    public static Result<Boolean> success() {
+        return new Result<>(200, true, "success", true);
+    }
+
+    public static Result<Object> success(Object data) {
+        return new Result<>(200, true, "success", data);
     }
 }
